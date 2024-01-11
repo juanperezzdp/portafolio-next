@@ -1,27 +1,141 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+ 
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+body{
+  /* background-color: rgb(31, 48, 115); */
+  background-color:rgb(0, 0, 0);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+
+  @keyframes jump {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+  
+    40% {
+      transform: translateY(-10px);
+    }
+  
+    60% {
+      transform: translateY(-5px);
+    }
+  }
+  
+  .jumping-icon {
+    animation: jump 3s infinite;
+  }
+
+  @layer utilities {
+    .animation-delay-2000 {
+      animation-delay: 10s;
+    }
+    .animation-delay-4000 {
+      animation-delay: 4s;
+    }
+  }
+  
+
+.shadow-form{
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1), 0 0 40px rgba(8, 7, 16, 0.6);
+}
+
+
+@keyframes movi {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+
+  40% {
+    transform: translateY(-100%) translateX(-100%);
+  }
+
+  60% {
+    transform: translateY(0) translateX(0);
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.jump {
+  animation: movi 10s normal;
+}
+
+
+@keyframes movii {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+
+  40% {
+    transform: translateY(100%) translateX(100%);
+  }
+
+  60% {
+    transform: translateY(0) translateX(0);
+  }
+}
+
+.jumpp {
+  animation: movii 10s normal;
+}
+
+
+@keyframes background-shine {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -200% 0;
+  }
+}
+
+
+.background-shine {
+  animation: background-shine 2s linear infinite;
+}
+
+@keyframes customAnimation {
+  0% {
+    opacity: 0.2;
+  }
+50% {
+    opacity: 0.3;
+  }
+100% {
+    opacity: 0.2;
+  }
+}
+
+
+.animate-custom {
+  animation: customAnimation 10s ease-in-out infinite;
+}
+
+
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-icons {
+  animation: slideInFromRight 2s ease-in-out;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-iconss {
+  animation: slideInFromLeft 2s ease-in-out;
+  
 }
