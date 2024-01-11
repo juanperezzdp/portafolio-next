@@ -16,7 +16,7 @@ const Projects = () => {
               InvoiceYou originated from a personal experience. After making a
               purchase at a hardware store and not receiving an invoice because
               the owner ran out of invoice books, the idea of creating an
-              invoicing application emerged. That's how the inspiration for
+              invoicing application emerged. This is how the inspiration for
               InvoiceYou was born.
             </p>
             <p className="sm:text-right">It is developed with ReactJs.</p>
