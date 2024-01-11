@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Invoice from "../../public/InvoiceYou.png";
-import HypeEcommer from "../../public/HypeEcommer (2).png";
+import HypeEcommer from "../../public/HypeEcommer.png";
 import UiLinearGradients from "../../public/Ui-LinearGradients.png";
 import ArtPx from "../../public/ArtPx.png";
 import CoinTz from "../../public/CoinTz.png";
