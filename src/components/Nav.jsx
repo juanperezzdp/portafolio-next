@@ -4,7 +4,7 @@ import { MdContactPage } from "react-icons/md";
 
 const Nav = () => {
   const downloadResume = () => {
-    const pdfPath = "../../public/CvJuanPerez.pdf";
+    const pdfPath = "/CvJuanPerez.pdf";
     const link = document.createElement("a");
     link.href = pdfPath;
     link.download = "CvJuanPerez.pdf";

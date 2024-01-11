@@ -25,7 +25,7 @@ const Home = () => {
             </h1>
 
             <p className="sm:text-3xl text-2xl -mt-3 sm:-mt-10 font-thin">
-              Juan Jose Perez
+              Juan José Pérez
             </p>
           </div>
         </div>
