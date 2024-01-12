@@ -26,15 +26,14 @@ const About = () => {
             Desarrollador de Frontend JavaScript con experiencia en ReactJS.
           </p>
           <p>
-            Estoy preparado para aplicar mis habilidades y pasión con el
-            propósito de impulsar la misión de un proyecto. Mi actitud positiva,
-            junto con mi voluntad y motivación para adquirir nuevas tecnologías,
-            me distinguen. He trabajado en proyectos utilizando tecnologías como
-            JavaScript, React, Nextjs Redux, Nodejs, MongoDB, Firebase y
-            Supabase. Mi perseverancia y pasión me impulsan a completar tareas
-            hasta su culminación. Estas cualidades han permitido que desarrolle
-            habilidades para resolver problemas durante el desarrollo de
-            aplicaciones web.
+            I am ready to apply my skills and passion with the purpose of
+            driving the mission of a project. My positive attitude, along with
+            my willingness and motivation to acquire new technologies, set me
+            apart. I have worked on projects using technologies such as
+            JavaScript, React, Next.js, Redux, Node.js, MongoDB, Firebase, and
+            Supabase. My perseverance and passion drive me to complete tasks to
+            their culmination. These qualities have allowed me to develop
+            problem-solving skills during web application development.
           </p>
         </div>
       </div>
