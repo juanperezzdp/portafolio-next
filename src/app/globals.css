@@ -115,10 +115,12 @@ body{
 
 @keyframes slideInFromRight {
   0% {
-    transform: translateY(100%);
+    transform: translateX(100%);
+    
   }
   100% {
-    transform: translateY(0);
+    transform: translateX(0);
+   
   }
 }
 
@@ -126,14 +128,19 @@ body{
   animation: slideInFromRight 2s ease-in-out;
 }
 
+/* styles/globals.css */
+
 @keyframes slideInFromLeft {
   0% {
     transform: translateX(-100%);
+    
   }
   100% {
     transform: translateX(0);
+    
   }
 }
+
 
 .animate-iconss {
   animation: slideInFromLeft 2s ease-in-out;
