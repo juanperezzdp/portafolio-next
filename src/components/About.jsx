@@ -23,7 +23,7 @@ const About = () => {
         <div className="text-center sm:text-left w-full sm:w-[30rem]">
           <h2 className="text-[2rem] sm:text-[3.5rem]">Developer Web</h2>
           <p className="mb-4">
-            Desarrollador de Frontend JavaScript con experiencia en ReactJS.
+            JavaScript Frontend Developer with experience in ReactJS.
           </p>
           <p>
             I am ready to apply my skills and passion with the purpose of
