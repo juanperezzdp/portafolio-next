@@ -108,7 +108,27 @@ body{
 
 
 .animate-custom {
-  animation: customAnimation 10s ease-in-out infinite;
+  animation: customAnimation 8s ease-in-out infinite;
+}
+
+
+@media (max-width: 600px) {
+
+  .animate-custom {
+    animation: customAnimation 5s ease-in-out infinite;
+  }
+
+  @keyframes customAnimation {
+    0% {
+      opacity: 0.2;
+    }
+  50% {
+      opacity: 0.5;
+    }
+  100% {
+      opacity: 0.2;
+    }
+  }
 }
 
 
@@ -117,9 +137,11 @@ body{
   0% {
     transform: translateX(100%);
     
+    
   }
   100% {
     transform: translateX(0);
+    
    
   }
 }
@@ -127,8 +149,6 @@ body{
 .animate-icons {
   animation: slideInFromRight 2s ease-in-out;
 }
-
-/* styles/globals.css */
 
 @keyframes slideInFromLeft {
   0% {
