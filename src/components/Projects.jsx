@@ -5,14 +5,19 @@ import UiLinearGradients from "../../public/Ui-LinearGradients.png";
 import ArtPx from "../../public/ArtPx.png";
 import CoinTz from "../../public/CoinTz.png";
 import Link from "next/link";
+import { FaReact, FaSass, FaBitcoin } from "react-icons/fa";
+import { SiTailwindcss, SiPixabay } from "react-icons/si";
+import { FaFilePdf } from "react-icons/fa6";
+import { RiJavascriptFill } from "react-icons/ri";
+import { IoLogoFirebase } from "react-icons/io5";
 
 const Projects = () => {
   return (
     <section id="projects" className="w-full flex justify-center">
       <div className="flex flex-col justify-center w-[80%]">
         <div className="flex flex-col-reverse  sm:flex-row justify-center items-center">
-          <div className="text-white text-center sm:w-[30rem]">
-            <p className="sm:text-right">
+          <div className="text-white text-center sm:text-right sm:w-[30rem]">
+            <p className="">
               InvoiceYou originated from a personal experience. After making a
               purchase at a hardware store and not receiving an invoice because
               the owner ran out of invoice books, the idea of creating an
@@ -20,6 +25,13 @@ const Projects = () => {
               InvoiceYou was born.
             </p>
             <p className="sm:text-right">It is developed with ReactJs.</p>
+            <div className="w-full gap-2 flex justify-center sm:justify-end ">
+              <p>Technology and tools used in the project:</p>
+              <RiJavascriptFill className=" text-yellow-400 text-2xl" />
+              <FaReact className=" text-blue-700 text-2xl" />
+              <SiTailwindcss className=" text-cyan-500 text-2xl" />
+              <FaFilePdf className=" text-red-700 text-2xl" />
+            </div>
             <div className="cursor-pointer sm:text-right">
               <Link
                 target="_blank"
@@ -44,6 +56,15 @@ const Projects = () => {
               needs.
             </p>
             <p>It is developed with ReactJs.</p>
+            <div className="w-full gap-2 flex justify-center sm:justify-start ">
+              <p className="sm:text-right">
+                Technology and tools used in the project:
+              </p>
+              <RiJavascriptFill className=" text-yellow-400 text-2xl" />
+              <FaReact className=" text-blue-700 text-2xl" />
+              <IoLogoFirebase className=" text-yellow-400 text-2xl" />
+              <FaSass className=" text-pink-400 text-2xl" />
+            </div>
 
             <div className="cursor-pointer ">
               <Link
@@ -63,6 +84,13 @@ const Projects = () => {
               with the style you like the most. Explore the full range of colors
               to create your design.
             </p>
+
+            <div className="w-full gap-2 flex justify-center sm:justify-end ">
+              <p>Technology and tools used in the project:</p>
+              <RiJavascriptFill className=" text-yellow-400 text-2xl" />
+              <FaReact className=" text-blue-700 text-2xl" />
+              <FaSass className=" text-pink-400 text-2xl" />
+            </div>
 
             <div className="cursor-pointer sm:text-right">
               <Link
@@ -84,6 +112,16 @@ const Projects = () => {
               It provides high-quality search results in various categories and
               is easy to use. Ideal for your visual and design search needs.
             </p>
+            <div className="w-full gap-2 flex justify-center sm:justify-start ">
+              <p className="sm:text-right">
+                Technology and tools used in the project:
+              </p>
+              <RiJavascriptFill className=" text-yellow-400 text-2xl" />
+              <FaReact className=" text-blue-700 text-2xl" />
+              <SiPixabay className=" text-green-500 text-2xl" />
+              <FaSass className=" text-pink-400 text-2xl" />
+            </div>
+
             <div className="cursor-pointer">
               <Link
                 target="_blank"
@@ -103,6 +141,14 @@ const Projects = () => {
               prices.
             </p>
             <p className="sm:text-right">It is developed with ReactJs.</p>
+            <div className="w-full gap-2 flex justify-center sm:justify-end ">
+              <p>Technology and tools used in the project:</p>
+              <RiJavascriptFill className=" text-yellow-400 text-2xl" />
+              <FaReact className=" text-blue-700 text-2xl" />
+              <FaSass className=" text-pink-400 text-2xl" />
+              <FaBitcoin className=" text-yellow-600 text-2xl" />
+            </div>
+
             <div className="z-50 cursor-pointer sm:text-right">
               <Link
                 target="_blank"
