@@ -16,8 +16,8 @@ const Projects = () => {
     <section id="projects" className="w-full flex justify-center">
       <div className="flex flex-col justify-center w-[80%]">
         <div className="flex flex-col-reverse  sm:flex-row justify-center items-center">
-          <div className="text-white text-center sm:text-right sm:w-[30rem]">
-            <p className="">
+          <div className="text-white text-balance text-center sm:text-right sm:w-[30rem]">
+            <p>
               InvoiceYou originated from a personal experience. After making a
               purchase at a hardware store and not receiving an invoice because
               the owner ran out of invoice books, the idea of creating an
@@ -25,14 +25,15 @@ const Projects = () => {
               InvoiceYou was born.
             </p>
             <p className="sm:text-right">It is developed with ReactJs.</p>
-            <div className="w-full gap-2 flex justify-center sm:justify-end ">
-              <p>Technology and tools used in the project:</p>
+
+            <p className="mt-4">Technology and tools used in the project:</p>
+            <div className=" w-full flex justify-center sm:justify-end">
               <RiJavascriptFill className=" text-yellow-400 text-2xl" />
               <FaReact className=" text-blue-700 text-2xl" />
               <SiTailwindcss className=" text-cyan-500 text-2xl" />
               <FaFilePdf className=" text-red-700 text-2xl" />
             </div>
-            <div className="cursor-pointer sm:text-right">
+            <div className="cursor-pointer mt-4 sm:text-right">
               <Link
                 target="_blank"
                 href="https://clinquant-travesseiro-2ec97f.netlify.app/"
@@ -47,26 +48,23 @@ const Projects = () => {
 
         <div className="flex flex-col sm:flex-row justify-center items-center">
           <Image width={500} src={HypeEcommer} alt="img-projects" />
-          <div className="text-white text-center sm:text-left sm:w-[30rem]">
+          <div className=" text-white text-balance text-center sm:text-left sm:w-[30rem]">
             <p>
               Furniture Ecommerce App, your destination to find perfect
               furniture that will transform your home into a cozy and elegant
               space. We offer a wide selection of high-quality items, from sofas
               to beds and dining sets, designed to meet all your tastes and
-              needs.
+              needs. It is developed with ReactJs.
             </p>
-            <p>It is developed with ReactJs.</p>
-            <div className="w-full gap-2 flex justify-center sm:justify-start ">
-              <p className="sm:text-right">
-                Technology and tools used in the project:
-              </p>
+            <p className="mt-4">Technology and tools used in the project:</p>
+            <div className=" w-full flex justify-center sm:justify-start">
               <RiJavascriptFill className=" text-yellow-400 text-2xl" />
               <FaReact className=" text-blue-700 text-2xl" />
               <IoLogoFirebase className=" text-yellow-400 text-2xl" />
               <FaSass className=" text-pink-400 text-2xl" />
             </div>
 
-            <div className="cursor-pointer ">
+            <div className="cursor-pointer mt-4 ">
               <Link
                 target="_blank"
                 href="https://genuine-sorbet-63b4a2.netlify.app/"
@@ -78,21 +76,21 @@ const Projects = () => {
           </div>
         </div>
         <div className="flex flex-col-reverse sm:flex-row justify-center items-center">
-          <div className="text-white text-center sm:text-right sm:w-[30rem]">
+          <div className="text-white text-balance text-center sm:text-right sm:w-[30rem]">
             <p className="sm:text-right">
               Ui-LinearGradient is a web application that generates backgrounds
               with the style you like the most. Explore the full range of colors
               to create your design.
             </p>
 
-            <div className="w-full gap-2 flex justify-center sm:justify-end ">
-              <p>Technology and tools used in the project:</p>
+            <p className="mt-4">Technology and tools used in the project:</p>
+            <div className=" w-full flex justify-center sm:justify-end">
               <RiJavascriptFill className=" text-yellow-400 text-2xl" />
               <FaReact className=" text-blue-700 text-2xl" />
               <FaSass className=" text-pink-400 text-2xl" />
             </div>
 
-            <div className="cursor-pointer sm:text-right">
+            <div className="mt-4 cursor-pointer sm:text-right">
               <Link
                 target="_blank"
                 href="https://incomparable-biscuit-b6bd7d.netlify.app/"
@@ -106,23 +104,21 @@ const Projects = () => {
         </div>
         <div className="flex flex-col sm:flex-row justify-center items-center">
           <Image width={500} src={ArtPx} alt="img-projects" />
-          <div className="text-white text-center sm:text-left sm:w-[30rem]">
+          <div className="text-white text-balance text-center sm:text-left sm:w-[30rem]">
             <p>
               ArtPx is a free library of images and videos created with React.
               It provides high-quality search results in various categories and
               is easy to use. Ideal for your visual and design search needs.
             </p>
-            <div className="w-full gap-2 flex justify-center sm:justify-start ">
-              <p className="sm:text-right">
-                Technology and tools used in the project:
-              </p>
+            <p className="mt-4">Technology and tools used in the project:</p>
+            <div className=" w-full flex justify-center sm:justify-start">
               <RiJavascriptFill className=" text-yellow-400 text-2xl" />
               <FaReact className=" text-blue-700 text-2xl" />
               <SiPixabay className=" text-green-500 text-2xl" />
               <FaSass className=" text-pink-400 text-2xl" />
             </div>
 
-            <div className="cursor-pointer">
+            <div className="mt-4 cursor-pointer">
               <Link
                 target="_blank"
                 href="https://lovely-pastelito-3ba768.netlify.app/"
@@ -134,22 +130,22 @@ const Projects = () => {
           </div>
         </div>
         <div className="flex flex-col-reverse sm:flex-row justify-center items-center">
-          <div className="text-white text-center sm:text-right sm:w-[30rem]">
+          <div className="text-white text-balance text-center sm:text-right sm:w-[30rem]">
             <p className="sm:text-right">
               CoinTz is a responsive web application developed with React,
               utilizing the CoinGecko API to display current cryptocurrency
               prices.
             </p>
             <p className="sm:text-right">It is developed with ReactJs.</p>
-            <div className="w-full gap-2 flex justify-center sm:justify-end ">
-              <p>Technology and tools used in the project:</p>
+            <p className="mt-4">Technology and tools used in the project:</p>
+            <div className=" w-full flex justify-center sm:justify-end">
               <RiJavascriptFill className=" text-yellow-400 text-2xl" />
               <FaReact className=" text-blue-700 text-2xl" />
               <FaSass className=" text-pink-400 text-2xl" />
               <FaBitcoin className=" text-yellow-600 text-2xl" />
             </div>
 
-            <div className="z-50 cursor-pointer sm:text-right">
+            <div className="mt-4 cursor-pointer sm:text-right">
               <Link
                 target="_blank"
                 href="https://resilient-fairy-8d17a5.netlify.app/"
