@@ -1,8 +1,39 @@
 "use client";
 import Link from "next/link";
+import { useEffect } from "react";
 import { MdContactPage } from "react-icons/md";
 
 const Nav = () => {
+  const smoothScroll = (targetElement) => {
+    const targetPosition = targetElement.offsetTop;
+    window.scrollTo({
+      top: targetPosition,
+      behavior: "smooth",
+    });
+  };
+
+  useEffect(() => {
+    const handleClick = (e) => {
+      e.preventDefault();
+      const targetId = e.currentTarget.getAttribute("href").substring(1);
+      const targetElement = document.getElementById(targetId);
+      if (targetElement) {
+        smoothScroll(targetElement);
+      }
+    };
+
+    const links = document.querySelectorAll("nav ul a");
+    links.forEach((link) => {
+      link.addEventListener("click", handleClick);
+    });
+
+    return () => {
+      links.forEach((link) => {
+        link.removeEventListener("click", handleClick);
+      });
+    };
+  }, []);
+
   const downloadResume = () => {
     const pdfPath = "/CvJuanPerez.pdf";
     const link = document.createElement("a");
