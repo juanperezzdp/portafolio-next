@@ -21,7 +21,7 @@ const About = () => {
         </div>
 
         <div className="text-center sm:text-left w-full sm:w-[30rem]">
-          <h2 className="text-[2rem] sm:text-[3.5rem]">Developer Web</h2>
+          <h2 className="text-[2rem] sm:text-[3.5rem]">Web Developer</h2>
           <p className="mb-4">
             JavaScript Frontend Developer with experience in ReactJS.
           </p>
