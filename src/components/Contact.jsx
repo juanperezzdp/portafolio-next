@@ -1,8 +1,9 @@
 "use client";
-import React from "react";
+import { useState } from "react";
 import { useForm } from "react-hook-form";
 
 const Contact = () => {
+  const [animation, setAnimation] = useState(false);
   const {
     register,
     handleSubmit,
@@ -38,13 +39,13 @@ const Contact = () => {
         <div className="w-64 sm:w-80 h-[25rem] absolute">
           <div
             className={`${
-              true ? "jumpp" : ""
+              animation ? "jumpp" : ""
             } absolute -left-12 -top-12 h-28 w-28 sm:h-40 sm:w-40 rounded-full bg-gradient-to-br from-violet-700 to-teal-500`}
           ></div>
 
           <div
             className={`${
-              true ? "jump" : ""
+              animation ? "jump" : ""
             } absolute transition-all duration-500 -bottom-12 -right-12 h-28 w-28 sm:h-40 sm:w-40 rounded-full bg-gradient-to-r from-fuchsia-700 to-blue-600`}
           ></div>
           <form
@@ -59,6 +60,7 @@ const Contact = () => {
                   required: "Email is required",
                   pattern: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
                 })}
+                onClick={() => setAnimation(true)}
                 className="focus:bg-white focus:bg-opacity-40 w-[14.5rem] appearance-none placeholder-white resize-none focus:outline-none rounded-lg p-2 bg-opacity-40 bg-white"
                 placeholder="example@gmail.com"
               />
@@ -73,6 +75,7 @@ const Contact = () => {
               <label htmlFor="issue">Issues</label>
               <textarea
                 {...register("issue", { required: "Issue is required" })}
+                onClick={() => setAnimation(true)}
                 className="h-40 placeholder-white resize-none focus:outline-none rounded-lg p-2 w-[14.5rem] bg-opacity-40 bg-white"
                 placeholder="Write to the subject"
               ></textarea>
