@@ -8,15 +8,10 @@ const About = () => {
       className="w-full sm:h-[100vh] flex flex-col sm:flex-row justify-center items-center text-white"
     >
       <div className="gap-8 w-[80%] flex flex-col justify-center items-center sm:flex-row">
-        <div className="relative h-60 w-60 sm:h-80 sm:w-80 overflow-hidden rounded-full border border-slate-800 p-[1px] backdrop-blur-3xl">
-          <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"></span>
-          <div className="overflow-hidden inline-flex h-full w-full items-center justify-center rounded-full bg-black px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
-            <Image
-              className=" w-40 sm:w-[12.5rem]"
-              width={200}
-              src={test}
-              alt="photo"
-            />
+        <div className="relative h-60 w-60 sm:h-80 sm:w-80 overflow-hidden rounded-full border border-slate-800 p-[2px] backdrop-blur-3xl">
+          <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#0055ff_0%,#ffff_50%,#0055ff_100%)]"></span>
+          <div className="overflow-hidden inline-flex h-full w-full items-center justify-center rounded-full bg-black text-sm font-medium text-white backdrop-blur-3xl">
+            <Image className="w-full" src={test} alt="photo" />
           </div>
         </div>
 
