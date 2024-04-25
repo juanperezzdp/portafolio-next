@@ -44,7 +44,7 @@ const Projects = () => {
             <div className="cursor-pointer mt-4 ">
               <Link
                 target="_blank"
-                href="https://gestordepermisos.netlify.app/"
+                href="https://gestordepermisos.vercel.app/"
                 className="z-30 inline-flex background-shine bg-[linear-gradient(110deg,#939393,45%,#232323,55%,#939393)] hover:bg-[linear-gradient(110deg,#4a40ae,45%,#ffff,55%,#4a40ae)] bg-[length:250%_100%] bg-clip-text text-xl text-transparent"
               >
                 View website
