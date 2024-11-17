@@ -1,46 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
 
-body{
+body {
   /* background-color: rgb(31, 48, 115); */
-  background-color:rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
 }
 
-
-  @keyframes jump {
-    0%, 20%, 50%, 80%, 100% {
-      transform: translateY(0);
-    }
-  
-    40% {
-      transform: translateY(-10px);
-    }
-  
-    60% {
-      transform: translateY(-5px);
-    }
-  }
-  
-  .jumping-icon {
-    animation: jump 3s infinite;
+@keyframes jump {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
   }
 
-  @layer utilities {
-    .animation-delay-2000 {
-      animation-delay: 10s;
-    }
-    .animation-delay-4000 {
-      animation-delay: 4s;
-    }
+  40% {
+    transform: translateY(-10px);
   }
-  
 
-.shadow-form{
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+.jumping-icon {
+  animation: jump 3s infinite;
+}
+
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 10s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+}
+
+.shadow-form {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1), 0 0 40px rgba(8, 7, 16, 0.6);
 }
-
 
 @keyframes movi {
   0% {
@@ -60,7 +60,6 @@ body{
   animation: movi 10s normal;
 }
 
-
 @keyframes movii {
   0% {
     transform: translateY(0) translateX(0);
@@ -79,7 +78,6 @@ body{
   animation: movii 10s normal;
 }
 
-
 @keyframes background-shine {
   from {
     background-position: 0 0;
@@ -89,7 +87,6 @@ body{
   }
 }
 
-
 .background-shine {
   animation: background-shine 2s linear infinite;
 }
@@ -98,22 +95,19 @@ body{
   0% {
     opacity: 0.2;
   }
-50% {
+  50% {
     opacity: 0.3;
   }
-100% {
+  100% {
     opacity: 0.2;
   }
 }
-
 
 .animate-custom {
   animation: customAnimation 8s ease-in-out infinite;
 }
 
-
 @media (max-width: 600px) {
-
   .animate-custom {
     animation: customAnimation 5s ease-in-out infinite;
   }
@@ -122,47 +116,33 @@ body{
     0% {
       opacity: 0.2;
     }
-  50% {
+    50% {
       opacity: 0.5;
     }
-  100% {
+    100% {
       opacity: 0.2;
     }
   }
 }
 
-
-
 @keyframes slideInFromRight {
   0% {
     transform: translateX(100%);
-    
-    
   }
   100% {
     transform: translateX(0);
-    
-   
   }
 }
 
 .animate-icons {
-  animation: slideInFromRight 2s ease-in-out;
+  animation: scaleIn 1s ease-in-out;
 }
 
-@keyframes slideInFromLeft {
+@keyframes scaleIn {
   0% {
-    transform: translateX(-100%);
-    
+    transform: scale(0);
   }
   100% {
-    transform: translateX(0);
-    
+    transform: scale(1);
   }
-}
-
-
-.animate-iconss {
-  animation: slideInFromLeft 2s ease-in-out;
-  
 }
