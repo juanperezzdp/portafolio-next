@@ -9,11 +9,11 @@ const Home = () => {
       className="w-[100%] h-[100vh] flex flex-col justify-center items-center overflow-hidden"
     >
       <div className="flex justify-center items-center w-full h-[100vh]">
-        <div class=" -top-4 -z-20">
-          <div class="animate-custom h-[310px] w-[5rem] sm:w-[310px] max-w-full animate-pulse-slow rounded-full bg-[#260cf1] blur-[100px]"></div>
+        <div className=" -top-4 -z-20">
+          <div className="animate-custom h-[310px] w-[5rem] sm:w-[310px] max-w-full animate-pulse-slow rounded-full bg-[#260cf1] blur-[100px]"></div>
         </div>
-        <div class=" -top-4 -z-10 ">
-          <div class="animate-custom h-[310px] w-[5rem] sm:w-[310px] max-w-full animate-pulse-slow rounded-full bg-[#ac12f9] blur-[100px]"></div>
+        <div className=" -top-4 -z-10 ">
+          <div className="animate-custom h-[310px] w-[5rem] sm:w-[310px] max-w-full animate-pulse-slow rounded-full bg-[#ac12f9] blur-[100px]"></div>
         </div>
       </div>
 

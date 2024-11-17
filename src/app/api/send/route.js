@@ -27,11 +27,13 @@ export async function POST(req) {
     // Envía el correo
     await transporter.sendMail(mailOptions);
 
-    return NextResponse.json({ message: "Email sent successfully" });
+    return NextResponse.json({
+      message: "Correo electrónico enviado con éxito",
+    });
   } catch (error) {
     console.error("Error sending email:", error);
     return NextResponse.json(
-      { error: "Failed to send email" },
+      { error: "No se pudo enviar el correo electrónico" },
       { status: 500 }
     );
   }

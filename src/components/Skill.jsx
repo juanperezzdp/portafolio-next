@@ -54,12 +54,12 @@ const Skill = () => {
               isVisible ? "animate-icons" : ""
             }`}
           >
-            <p>Experience</p>
+            <p>Experiencia</p>
           </div>
 
           <div
             id="animatedIcons"
-            className={`text-white flex flex-wrap gap-1 justify-center items-center ${
+            className={`text-white flex flex-wrap gap-10 justify-center items-center ${
               isVisible ? "animate-icons" : ""
             }`}
           >
@@ -72,6 +72,12 @@ const Skill = () => {
               <FaReact className="text-[3rem] sm:text-[5rem] text-blue-600" />
               <p className="text-xs">React</p>
             </div>
+
+            <div className="flex flex-col items-center">
+              <SiTypescript className="text-[3rem] sm:text-[5rem] text-blue-600" />
+              <p className="text-xs">Typescript</p>
+            </div>
+
             <div className="flex flex-col items-center">
               <SiMongodb className="text-[3rem] sm:text-[5rem] text-green-900" />
               <p className="text-xs">MongoDB</p>
@@ -120,58 +126,10 @@ const Skill = () => {
               <FaGithub className="text-[3rem] sm:text-[5rem] text-violet-900" />
               <p className="text-xs">Git/Github</p>
             </div>
-          </div>
-        </div>
-
-        <div>
-          <div
-            className={`text-white text-3xl sm:text-4xl mb-4 flex items-center justify-center gap-4  ${
-              isVisible ? "animate-iconss" : ""
-            }`}
-          >
-            <p>Learning new tech</p>
-          </div>
-
-          <div
-            id="animatedIcons"
-            className={`text-white flex flex-wrap gap-1 justify-center items-end ${
-              isVisible ? "animate-iconss" : ""
-            }`}
-          >
-            <div className="flex flex-col items-center">
-              <FaJava className="text-[3rem] sm:text-[5rem] text-red-600" />
-              <p className="text-xs">Java</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <SiTypescript className="text-[3rem] sm:text-[5rem] text-blue-600" />
-              <p className="text-xs">Typescript</p>
-            </div>
-
-            <div className="flex flex-col items-center">
-              <IoLogoFigma className="text-[3rem] sm:text-[5rem] text-red-600" />
-              <p className="text-xs">Figma</p>
-            </div>
-
             <div className="flex flex-col items-center">
               <SiMysql className="text-[3rem] sm:text-[5rem] text-yellow-400" />
               <p className="text-xs">MySQL</p>
             </div>
-
-            <div className="flex flex-col items-center">
-              <SiSpring className="text-[3rem] sm:text-[5rem] text-green-500" />
-              <p className="text-xs">Spring</p>
-            </div>
-
-            <div className="flex flex-col items-center">
-              <BsFiletypeSql className="text-[3rem] sm:text-[5rem] text-cyan-950" />
-              <p className="text-xs">SQL</p>
-            </div>
-
-            <div className="flex flex-col items-center">
-              <FaDocker className="text-[3rem] sm:text-[5rem] text-blue-600" />
-              <p className="text-xs">Docker</p>
-            </div>
-
             <div className="flex flex-col items-center">
               <Image
                 src={Zustand}
@@ -180,6 +138,10 @@ const Skill = () => {
                 className="w-[3.5rem] sm:w-[6rem]"
               />
               <p className="text-xs">Zustand</p>
+            </div>
+            <div className="flex flex-col items-center">
+              <FaDocker className="text-[3rem] sm:text-[5rem] text-blue-600" />
+              <p className="text-xs">Docker</p>
             </div>
           </div>
         </div>

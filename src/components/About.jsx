@@ -18,17 +18,18 @@ const About = () => {
         <div className="text-center sm:text-left w-full sm:w-[30rem]">
           <h2 className="text-[2rem] sm:text-[3.5rem]">Web Developer</h2>
           <p className="mb-4">
-            JavaScript Frontend Developer with experience in ReactJS.
+            Desarrollador Frontend JavaScript con experiencia en ReactJS.
           </p>
           <p>
-            I am ready to apply my skills and passion with the purpose of
-            driving the mission of a project. My positive attitude, along with
-            my willingness and motivation to acquire new technologies, set me
-            apart. I have worked on projects using technologies such as
-            JavaScript, React, Next.js, Redux, Node.js, MongoDB, Firebase, and
-            Supabase. My perseverance and passion drive me to complete tasks to
-            their culmination. These qualities have allowed me to develop
-            problem-solving skills during web application development.
+            Estoy listo para aplicar mis habilidades y pasión con el propósito
+            de impulsar la misión de un proyecto. Mi actitud positiva, junto con
+            mi disposición y motivación para adquirir nuevas tecnologías, me
+            sitúan aparte. He trabajado en proyectos utilizando tecnologías como
+            JavaScript, React, Next.js, Zustand, Node.js, MongoDB, Firebase y
+            Supabase. Mi perseverancia y pasión me impulsan a completar tareas
+            para su culminación. Estas cualidades me han permitido desarrollar
+            Habilidades de resolución de problemas durante el desarrollo de
+            aplicaciones web.
           </p>
         </div>
       </div>
