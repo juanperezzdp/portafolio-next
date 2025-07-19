@@ -13,7 +13,7 @@ const SocialNetworks = () => {
 
   return (
     <>
-      <section className="z-10 -mt-7 sm:-mt-0 text-xl fixed h-[100vh]  top-5 right-1 sm:right-8 flex flex-col justify-center items-end gap-8 ">
+      <section className="z-10 -mt-7 sm:-mt-0 text-xl fixed h-[100vh]  top-5 right-1 sm:right-8 flex flex-col justify-center items-end gap-4 ">
         <div className="flex items-center gap-4 ">
           {googleMessage && (
             <p className=" animate-fade-in text-sm p-2 rounded-md text-white">
